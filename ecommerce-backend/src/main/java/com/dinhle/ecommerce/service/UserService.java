@@ -16,4 +16,6 @@ public interface UserService {
 	User createUser(User user);
 	
 	User updateUser(int user_id, User user);
+	
+	User loginUser(String username, String password);
 }
